@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>NBA</title>
+<link rel="icon" href="imagens/court.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Novo Time</h1>
+	<form name="frmTime" action="insert" method = "post">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Time" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="titulos" placeholder="Titulos" class="Caixa2"></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" name="mvp" placeholder="MVP da Franquia" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="mvpClass" placeholder="Classe do Draft" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="mvpNac" placeholder="Nacionalidade" class="Caixa1"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="text" name="star" placeholder="Estrela da Franquia" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="starClass" placeholder="Classe do Draft" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="starNac" placeholder="Nacionalidade" class="Caixa2"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick = "validar()">
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
